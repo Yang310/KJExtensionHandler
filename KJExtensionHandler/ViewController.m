@@ -34,6 +34,8 @@
         }
         return nil;
     }];
+    
+    self.navigationController.navigationBar.kj_changeNavigationBarImage([UIImage imageNamed:@"timg-2"]).kj_changeNavigationBarTitle(UIColor.whiteColor,[UIFont boldSystemFontOfSize:20]);
 }
 
 @end
